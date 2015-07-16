@@ -65,6 +65,9 @@
             <h2> <?php the_field('header_h2'); ?> </h2>
             <h3><?php the_field('header_h3'); ?></h3>
 
+            <div class="dividerLine">
+            </div>
+
             <div class="requestDemo" id="requestDemo">
                 <a href="#"><?php the_field('button_text'); ?></a>  
             </div>

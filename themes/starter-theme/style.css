@@ -876,12 +876,18 @@ header {
 
 #home-header h2 {
   text-align: center;
-  padding-top: 45vh;
-  color: #fff; }
+  padding-top: 40vh;
+  color: #fff;
+  font-size: 65px;
+  line-height: 1.2;
+  font-weight: 900;
+  padding-bottom: 5px;
+  margin-bottom: 0; }
 
 #home-header h3 {
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  font-weight: 100; }
 
 .requestDemo {
   text-align: center; }
@@ -892,6 +898,16 @@ header {
   background: #41BFC2;
   border-radius: 5px;
   color: #fff; }
+
+.dividerLine {
+  width: 100px;
+  height: 5px;
+  background: transparent;
+  border-bottom: 5px solid white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px; }
 
 #blog {
   background: red; }
