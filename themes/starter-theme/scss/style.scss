@@ -1,0 +1,26 @@
+/*!
+Theme Name: Starter Theme
+Theme URI: themeURI
+Author: Melissa Jean Clark
+Author URI: http://melissajclark.ca
+Description: WordPress starter theme 
+Version: 1.0
+License: The MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+Text Domain: starter-theme
+*/
+
+
+// RESET & BASE
+// ------------------
+@import "base/all-base";
+
+
+// CONTENT
+// ------------------
+@import "content/all-content";
+
+
+// MODULES
+// ------------------
+@import "modules/all-modules";

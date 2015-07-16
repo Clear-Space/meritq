@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "gulp": "*",
+    "gulp-sass": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-newer": "*",
+    "gulp-uglifyjs": "*",
+    "gulp-plumber": "*"
+  }
+}

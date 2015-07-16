@@ -1,0 +1,37 @@
+// *
+// *
+// * Sticky Footer
+// *
+// *
+
+
+@mixin sticky-footer($footer-height, $contentWrapper-selector: unquote("#contentWrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #{$contentWrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
+    } 
+  }
+  #{$footer-selector} {
+    height: $footer-height; 
+  }
+}
+
+%clearfix {
+  &:after {
+    content: '';
+    display: table;
+    width: 100%;
+    height: 0.1px;
+  }
+}

@@ -1,0 +1,45 @@
+#home-header {
+	margin-bottom: 45px;
+	position: relative;
+	z-index: 250;
+	height:100vh;
+
+}
+
+header {
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+#access {
+	margin-top:35px;
+}
+
+
+#home-header h2 {
+	text-align:center;
+	padding-top:45vh;
+	color:#fff;
+}
+
+#home-header h3 {
+	text-align:center;
+	color:#fff;
+}
+
+.requestDemo {
+	text-align:center;
+}
+
+.requestDemo a {
+	text-align:center;
+	padding:10px 10px;
+	background:#41BFC2;
+	border-radius:5px;
+	color:#fff;
+}
+
+#blog {
+background:red;
+}

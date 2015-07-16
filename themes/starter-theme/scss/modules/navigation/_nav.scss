@@ -1,0 +1,68 @@
+#access {
+	float:right;
+}
+
+h1.meritLogo {
+	clear:left;
+	padding-top:0;
+	margin-top:0;
+}
+
+h1.meritLogo img {
+	width:200px;
+	margin-left:60px;
+	margin-top:15px;
+}
+
+.menu,
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Top level nav */
+.menu {
+	float: left;
+	margin: 0 auto;
+}
+
+/* Dropdowns */
+.menu ul {
+	position: absolute;
+	top: 2.5em;
+	left: -9999px;
+	opacity: 0;
+	-webkit-transition: 0.1s linear opacity;
+	min-width:$navItem-width;
+	background: $navDropdown-bg;
+}
+
+.menu li {
+	float: left;
+	position: relative;
+}
+
+/* Top level nav items */
+.menu li > a {
+	float: left;
+	padding: 5px 10px;
+	margin:10px;
+	color: $text;
+	text-decoration: none;
+	// min-width:$navItem-width;
+	text-align:center;
+	color:#1F455E;
+
+}
+
+
+// free demo
+#menu-item-79 a {
+	color:#fff;
+	margin-right:50px;
+	border:1px solid #fff;
+	border-radius:8px;
+	padding:5px 15px;
+}
+

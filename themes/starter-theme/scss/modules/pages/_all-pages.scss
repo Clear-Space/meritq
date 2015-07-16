@@ -1,0 +1,135 @@
+/**
+*
+* Pages
+*
+**/
+
+@import "pages";
+
+/* Uncomment if you have a custom home page
+@import "home";*/
+
+.whyMerit {}
+
+.whyBlock {
+    float: left;
+    width: 48%;
+    margin: 1%;
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.howMerit h2 {
+    text-align: center;
+}
+
+.inputExplained {
+    background: #E7E7E8;
+
+    h2 {
+        float: left;
+        width: 40%;
+        color: #4EC1C2;
+        padding-top: 10vh;
+        position: relative;
+        top: 25px;
+    }
+
+    p {
+        float: right;
+        clear: right;
+        width: 40%;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}
+
+.outputExplained {
+    h2 {
+        float: right;
+        width: 40%;
+        text-align: right;
+        color: #4EC1C2;
+        position: relative;
+        top: 25px;
+    }
+
+    p {
+        width: 40%;
+        float: left;
+        clear: left;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}
+
+.actionExplained {
+    h2 {
+        float: left;
+        width: 40%;
+        color: #4EC1C2;
+        position: relative;
+        top: 25px;
+    }
+
+    p {
+        float: right;
+        clear: right;
+        width: 40%;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    background: #E7E7E8;
+}
+
+.testimonial {
+    height: 60vh;
+    text-align: center;
+    position: relative;
+    background-position: center;
+
+    .testimonialType {
+        position: absolute;
+        top: 30%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: #fff;
+    }
+}
+
+.actionExplained, .inputExplained, .outputExplained {
+    h2 {
+        font-size: 60px;
+        line-height: 1;
+        padding-top: 6vh;
+    }
+}
+
+.freeDemo {
+    background: #4EC1C2;
+    height: 35vh;
+    text-align: center;
+}
+
+// blog scss
+
+h1.entry-title {
+	text-align:center;
+}
+
+h2.entry-title a {
+    color: #000;
+    text-align:center;
+}
+
+.entry-meta a {
+    color: #000;
+}
