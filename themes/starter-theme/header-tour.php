@@ -48,31 +48,37 @@
 <body <?php body_class(); ?>>
 
 
-    <header id="home-header" role="banner" style="background-image: url(<?php echo the_field('header_image') ?>);">
 
-    <nav id="access" role="navigation">
-        <?php wp_nav_menu( array( "theme_location" => "primary", 'container' => '' ) ); ?>
-    </nav><!-- #access -->  
+<header id="site-header" role="banner" style="background-image: url(<?php echo the_field('header_image') ?>);">
 
-        <a href="#main" class="visuallyhidden focusable" id="skiptomain"><?php _e('Skip to content', 'starter-theme'); ?></a>
+<nav id="access notHome" role="navigation">
+    <?php wp_nav_menu( array( "theme_location" => "primary", 'container' => '' ) ); ?>
+</nav><!-- #access -->  
+
+    <a href="#main" class="visuallyhidden focusable" id="skiptomain"><?php _e('Skip to content', 'starter-theme'); ?></a>
+    
+        <h1 class="meritLogo">
+            <a href="<?php echo esc_url( home_url( "/" ) ); ?>" target="_blank">
+            <img src="/wp-content/uploads/2015/07/logoWhite.svg" alt="">
+            </a>
+        </h1>
+
+
+    <div class="tourHeaderText contentContainer">
         
-            <h1 class="meritLogo">
-                <a href="<?php echo esc_url( home_url( "/" ) ); ?>" target="_blank">
-                <img src="/wp-content/uploads/2015/07/logo1.svg" alt="">
-                </a>
-            </h1>
+        <h2> <?php the_field('page_title') ?> </h2>
+        <h3> <?php the_field('tour_h2') ?> </h3>
 
-            <h2> <?php the_field('header_h2'); ?> </h2>
-            <h3><?php the_field('header_h3'); ?></h3>
+        <div class="dividerLine"></div>
 
-            <div class="dividerLine">
-            </div>
+        <div class="requestDemo requestDemoTour" id ="requestDemo">
+            <a href="#"><?php the_field('request_button') ?></a>
+        </div>
 
-            <div class="requestDemo" id="requestDemo">
-                <a href="#"><?php the_field('button_text'); ?></a>  
-            </div>
+    </div>
 
-            
+
+
 
     </header><!-- #site-header .contentContainer -->
 

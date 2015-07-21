@@ -847,6 +847,17 @@ optgroup::-moz-focus-inner {
 .ie6_input_disabled {
   background: #eeeeee; }
 
+body {
+  width: 100%;
+  *zoom: 1; }
+  body:before,
+  body:after {
+    display: table;
+    content: '';
+    line-height: 0; }
+  body:after {
+    clear: both; }
+
 /**
 *
 * Modules
@@ -866,13 +877,18 @@ optgroup::-moz-focus-inner {
   z-index: 250;
   height: 100vh; }
 
+.page-id-18 #site-header {
+  background: #39BFC2;
+  height: 60vh; }
+
 header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-
-#access {
-  margin-top: 35px; }
+  header h2 {
+    text-align: center; }
+  header h3 {
+    text-align: center; }
 
 #home-header h2 {
   text-align: center;
@@ -899,11 +915,14 @@ header {
   border-radius: 5px;
   color: #fff; }
 
+.requestDemoTour a {
+  background: #1E455E; }
+
 .dividerLine {
   width: 100px;
-  height: 5px;
+  height: 3px;
   background: transparent;
-  border-bottom: 5px solid white;
+  border-bottom: 3px solid white;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -915,6 +934,9 @@ header {
 #access {
   float: right; }
 
+nav a:focus {
+  outline: 0; }
+
 h1.meritLogo {
   clear: left;
   padding-top: 0;
@@ -923,7 +945,10 @@ h1.meritLogo {
 h1.meritLogo img {
   width: 200px;
   margin-left: 60px;
-  margin-top: 15px; }
+  margin-top: 55px; }
+
+nav ul li {
+  margin-top: 80px; }
 
 .menu,
 .menu ul {
@@ -933,7 +958,7 @@ h1.meritLogo img {
 
 /* Top level nav */
 .menu {
-  float: left;
+  float: right;
   margin: 0 auto; }
 
 /* Dropdowns */
@@ -958,14 +983,26 @@ h1.meritLogo img {
   color: #222;
   text-decoration: none;
   text-align: center;
-  color: #1F455E; }
+  color: #1F455E;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.25s;
+          transition: all 0.25s;
+  padding-bottom: 10px; }
+  .menu li > a:hover {
+    border-bottom: 1px solid #1F455E;
+    padding-bottom: 15px; }
 
 #menu-item-79 a {
   color: #fff;
   margin-right: 50px;
   border: 1px solid #fff;
   border-radius: 8px;
-  padding: 5px 15px; }
+  padding: 5px 15px;
+  -webkit-transition: 0.45s all ease-in-out;
+          transition: 0.45s all ease-in-out; }
+  #menu-item-79 a:hover {
+    border: 1px solid #1F455E;
+    color: #1F455E; }
 
 /*-----  End of Navigation  ------*/
 /*=============================
@@ -997,17 +1034,40 @@ h1.meritLogo img {
 
 /* Uncomment if you have a custom home page
 @import "home";*/
+.whyMerit {
+  text-align: center; }
+
 .whyBlock {
   float: left;
   width: 48%;
-  margin: 1%; }
-  .whyBlock h2 {
-    text-align: center; }
-  .whyBlock p {
-    text-align: center; }
-
-.howMerit h2 {
+  margin: 1%;
+  position: relative;
   text-align: center; }
+  .whyBlock img {
+    width: 45%; }
+  .whyBlock h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  .whyBlock p {
+    text-align: center;
+    margin: 0; }
+  .whyBlock .number {
+    width: 100px;
+    height: 50px;
+    z-index: 5;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+.howMerit {
+  text-align: center; }
+  .howMerit h3 {
+    padding-bottom: 25px; }
+  .howMerit img {
+    padding-bottom: 25px; }
+  .howMerit img.arrow {
+    width: 5%; }
 
 .inputExplained {
   background: #E7E7E8; }
@@ -1088,6 +1148,83 @@ h2.entry-title a {
 
 .entry-meta a {
   color: #000; }
+
+.page-id-18 .section2TextBlock {
+  float: right;
+  width: 45%;
+  clear: right; }
+
+.page-id-18 .tourSection2 {
+  height: 45vh;
+  background: red; }
+  .page-id-18 .tourSection2 img {
+    float: left;
+    padding-top: 8vh; }
+  .page-id-18 .tourSection2 .section2TextBlock {
+    padding-top: 8vh; }
+
+.page-id-18 .tourSection3 {
+  background: purple; }
+
+.page-id-18 .tourSection3 p {
+  width: 75%; }
+
+.page-id-18 .tourSection3 h2 {
+  text-align: center;
+  font-size: 75px;
+  color: #39BFC2;
+  line-height: 1; }
+  .page-id-18 .tourSection3 h2 span {
+    font-size: 75px;
+    font-weight: 100;
+    color: #1E455E; }
+
+.page-id-18 .tourSection3 h3 {
+  text-align: center;
+  color: #1E455E;
+  font-weight: 900;
+  font-size: 22pt; }
+
+.page-id-18 .tourBlock {
+  width: 48%;
+  margin: 1%;
+  float: left;
+  position: relative; }
+  .page-id-18 .tourBlock .number {
+    width: 100px;
+    height: 50px;
+    z-index: 5;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .page-id-18 .tourBlock h2 {
+    text-align: left;
+    font-size: 35px; }
+
+.page-id-18 .tourBlockRight {
+  width: 48%;
+  margin: 1%;
+  float: left;
+  position: relative; }
+  .page-id-18 .tourBlockRight h2 {
+    text-align: left;
+    font-size: 35px;
+    margin-left: 20%; }
+  .page-id-18 .tourBlockRight p {
+    margin-left: 20%; }
+  .page-id-18 .tourBlockRight .number {
+    width: 100px;
+    height: 50px;
+    z-index: 5;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0; }
 
 /*-----  End of Pages  ------*/
 /*============================

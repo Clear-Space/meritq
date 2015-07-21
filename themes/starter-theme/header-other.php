@@ -51,7 +51,7 @@
 
 <header id="site-header" role="banner" style="background-image: url(<?php echo the_field('header_image') ?>);">
 
-<nav id="access" role="navigation">
+<nav id="access notHome" role="navigation">
     <?php wp_nav_menu( array( "theme_location" => "primary", 'container' => '' ) ); ?>
 </nav><!-- #access -->  
 

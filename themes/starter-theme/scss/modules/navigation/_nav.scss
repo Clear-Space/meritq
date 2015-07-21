@@ -2,6 +2,14 @@
 	float:right;
 }
 
+#notHome {
+
+}
+
+nav a:focus {
+	outline:0;
+}
+
 h1.meritLogo {
 	clear:left;
 	padding-top:0;
@@ -11,7 +19,11 @@ h1.meritLogo {
 h1.meritLogo img {
 	width:200px;
 	margin-left:60px;
-	margin-top:15px;
+	margin-top:55px;
+}
+
+nav ul li {
+	margin-top:80px;
 }
 
 .menu,
@@ -23,7 +35,7 @@ h1.meritLogo img {
 
 /* Top level nav */
 .menu {
-	float: left;
+	float: right;
 	margin: 0 auto;
 }
 
@@ -53,7 +65,19 @@ h1.meritLogo img {
 	// min-width:$navItem-width;
 	text-align:center;
 	color:#1F455E;
+	border-bottom:1px solid transparent;
+	transition:all 0.25s;
+	padding-bottom:10px;
+	
+	&:hover {
+	border-bottom:1px solid #1F455E;
+	padding-bottom:15px;
+	}
 
+}
+
+#access ul li a:hover {
+	
 }
 
 
@@ -64,5 +88,11 @@ h1.meritLogo img {
 	border:1px solid #fff;
 	border-radius:8px;
 	padding:5px 15px;
+	transition:0.45s all ease-in-out;
+
+	&:hover {
+		border:1px solid #1F455E;
+		color:#1F455E;
+	}
 }
 

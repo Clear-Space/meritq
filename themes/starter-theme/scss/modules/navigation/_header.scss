@@ -6,14 +6,23 @@
 
 }
 
+.page-id-18 #site-header {
+	background:#39BFC2;
+	height:60vh;
+}
+
 header {
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
-}
 
-#access {
-	margin-top:35px;
+	h2 {
+		text-align:center;
+	}
+
+	h3 {
+		text-align:center;
+	}
 }
 
 
@@ -46,11 +55,15 @@ header {
 	color:#fff;
 }
 
+.requestDemoTour a {
+	background:#1E455E;
+}
+
 .dividerLine {
 	width:100px;
-	height:5px;
+	height:3px;
 	background:transparent;
-	border-bottom:5px solid white;
+	border-bottom:3px solid white;
 	text-align:center;
 	display:block;
 	margin:0 auto;

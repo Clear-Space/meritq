@@ -9,24 +9,65 @@
 /* Uncomment if you have a custom home page
 @import "home";*/
 
-.whyMerit {}
+
+// home styles
+
+.whyMerit {
+	
+	text-align:center;
+
+}
 
 .whyBlock {
     float: left;
     width: 48%;
     margin: 1%;
+    position: relative;
+    text-align:center;
+
+    img {
+    	width:45%;
+    }
 
     h2 {
         text-align: center;
+        margin:0;
+        padding:0;
     }
 
     p {
         text-align: center;
+        margin:0;
     }
+
+    .number {
+    	width:100px;
+    	height:50px;
+    	z-index:5;
+    	background-position:center;
+    	background-size:contain;
+    	background-repeat:no-repeat;
+    }
+
+
 }
 
-.howMerit h2 {
+
+
+.howMerit {
     text-align: center;
+
+    h3 {
+    	padding-bottom:25px;
+    }
+
+    img {
+    	padding-bottom:25px;
+    }
+
+    img.arrow {
+    	width:5%;
+    }
 }
 
 .inputExplained {
@@ -119,7 +160,7 @@
     text-align: center;
 }
 
-// blog scss
+// blog styles
 
 h1.entry-title {
 	text-align:center;
@@ -132,4 +173,119 @@ h2.entry-title a {
 
 .entry-meta a {
     color: #000;
+}
+
+
+// tour styles
+
+.page-id-18 {
+
+	.section2TextBlock {
+		float:right;
+		width:45%;
+		clear:right;
+	}
+
+	.tourSection2 {
+
+		height:45vh;
+		background:red;
+
+		img {
+			float:left;
+			padding-top:8vh;
+		}
+
+		.section2TextBlock {
+			padding-top:8vh;
+
+		}
+	
+
+	}
+
+	.tourSection3 {
+		background:purple;
+	}
+
+	
+
+	.tourSection3 p {
+		width:75%;
+	}
+
+	.tourSection3 h2 {
+		text-align:center;
+		font-size:75px;
+		color:#39BFC2;
+		line-height:1;
+
+		span {
+			font-size:75px;
+			font-weight:100;
+			color:#1E455E;
+		}
+
+
+	}
+
+	.tourSection3 h3 {
+		text-align:center;
+		color:#1E455E;
+		font-weight:900;
+		font-size:22pt;
+	}
+
+	.tourBlock {
+		width:48%;
+		margin:1%;
+		float:left;
+		position: relative;
+
+		.number {
+			width:100px;
+			height:50px;
+			z-index:5;
+			background-position:center;
+			background-size:contain;
+			background-repeat:no-repeat;
+			position: absolute;
+			left:0;
+			top:0;
+		}
+
+		h2 {
+			text-align:left;
+			font-size:35px;
+		}
+	}
+
+	.tourBlockRight {
+		width:48%;
+		margin:1%;
+		float:left;
+		position: relative;
+
+		h2 {
+			text-align:left;
+			font-size:35px;
+			margin-left:20%;
+		}
+
+		p {
+			margin-left:20%;
+		}
+
+		.number {
+			width:100px;
+			height:50px;
+			z-index:5;
+			background-position:center;
+			background-size:contain;
+			background-repeat:no-repeat;
+			position: absolute;
+			left:0;
+			top:0
+		}
+	}
 }

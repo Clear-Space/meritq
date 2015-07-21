@@ -10,7 +10,7 @@
 
 
  
-<footer role="contentinfo" class="contentWrapper">
+<footer role="contentinfo" class="contentWrapper clearfix">
 		
 	<div id="copyright" class="contentContainer">
 
