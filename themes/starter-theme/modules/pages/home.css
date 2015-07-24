@@ -1,0 +1,107 @@
+* {
+  background: red; }
+
+.whyMerit {
+  text-align: center; }
+
+.whyBlock {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  position: relative;
+  text-align: center; }
+  .whyBlock img {
+    width: 45%; }
+  .whyBlock h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  .whyBlock p {
+    text-align: center;
+    margin: 0; }
+  .whyBlock .number {
+    width: 100px;
+    height: 50px;
+    z-index: 5;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+.howMerit {
+  text-align: center; }
+  .howMerit h3 {
+    padding-bottom: 25px; }
+  .howMerit img {
+    padding-bottom: 25px; }
+  .howMerit img.arrow {
+    width: 5%; }
+
+.inputExplained {
+  background: #E7E7E8; }
+  .inputExplained h2 {
+    float: left;
+    width: 40%;
+    color: #4EC1C2;
+    padding-top: 10vh;
+    position: relative;
+    top: 25px; }
+  .inputExplained p {
+    float: right;
+    clear: right;
+    width: 40%;
+    padding-top: 10vh;
+    padding-bottom: 10vh; }
+
+.outputExplained h2 {
+  float: right;
+  width: 40%;
+  text-align: right;
+  color: #4EC1C2;
+  position: relative;
+  top: 25px; }
+
+.outputExplained p {
+  width: 40%;
+  float: left;
+  clear: left;
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
+
+.actionExplained {
+  background: #E7E7E8; }
+  .actionExplained h2 {
+    float: left;
+    width: 40%;
+    color: #4EC1C2;
+    position: relative;
+    top: 25px; }
+  .actionExplained p {
+    float: right;
+    clear: right;
+    width: 40%;
+    padding-top: 10vh;
+    padding-bottom: 10vh; }
+
+.testimonial {
+  height: 60vh;
+  text-align: center;
+  position: relative;
+  background-position: center; }
+  .testimonial .testimonialType {
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff; }
+
+.actionExplained h2, .inputExplained h2, .outputExplained h2 {
+  font-size: 60px;
+  line-height: 1;
+  padding-top: 6vh; }
+
+.freeDemo {
+  background: #4EC1C2;
+  height: 35vh;
+  text-align: center; }

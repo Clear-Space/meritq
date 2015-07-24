@@ -1,0 +1,196 @@
+// tour styles
+
+@import "deadset";
+
+#rokkitt {
+	font-family:'Rokkitt', serif;
+}
+
+.tourHeaderText #rokkitt {
+	font-size:45px;
+	font-weight:400;
+}
+
+.tourHeaderText {
+	h3 {
+		font-size:45px;
+		font-weight:700;
+		font-family:lato;
+		color:#fff;
+		line-height:1;
+	}
+}
+
+
+.tourSection2 {
+	text-align:center;
+
+	p {
+		font-family:lato;
+	}
+}
+
+.principles {
+	background-color:#E7E7E8;
+	position: relative;
+
+	p {
+		text-align:left;
+	}
+
+	.contentContainer {
+		padding-bottom:75px;
+	}
+}
+
+.middleLine {
+	height:900px;
+	width:1px;
+	border-left:2px solid #C0C0C0;
+	position: absolute;
+	left:50%;
+	top:25%;
+
+}
+
+.page-id-18 {
+
+	.section2TextBlock {
+
+	}
+
+	.tourSection2 {
+
+		height:45vh;
+
+		h2 {
+			color:#39BFC2;
+			font-weight:700;
+			line-height:1.2;
+		}
+
+		p {
+			font-weight:100;
+			font-size:22px;
+		}
+		
+
+		img {
+			padding-top:5vh;
+			position: relative;
+			top:8px;
+			width:100%;
+		}
+
+		.section2TextBlock {
+			padding-top:2vh;
+
+		}
+	
+
+	}
+
+	
+
+}
+
+.tourTopNumber {
+		font-size:65px;
+		text-align:center;
+		color:#39BFC2;
+
+		span {
+			font-weight:100;
+			font-size:65px;
+			color:#1E455E;
+			top:-3px;
+			position: relative;
+			padding-left:10px;
+			padding-right:10px;
+		}
+	}
+
+.tourTop {
+	text-align:center;
+	h2 {
+		color:#1E455E;
+		font-weight:900;
+		padding-bottom:50px;
+	}
+}
+
+.tourBlock {
+
+	position:relative;
+	width:50%;
+	float:left;
+	min-height:250px;
+
+	h2 {
+		
+		position: absolute;
+		left:20%;
+		color:#39BFC2;
+		font-weight:700;
+		font-size:28px;
+	}
+
+	p {
+		width:70%;
+		left:20%;
+		position: absolute;
+		top:65px;
+		margin-bottom:0;
+	}
+
+	.number {
+			width:100px;
+			height:50px;
+			z-index:5;
+			background-position:center;
+			background-size:contain;
+			background-repeat:no-repeat;
+			position: absolute;
+			left:-20px;
+			top:35px;
+		}
+}
+
+	.tourBlockRight {
+		float:right;
+		width:48%;
+		position: relative;
+		min-height:250px;
+		left:5%;
+
+		h2 {
+		
+		position: absolute;
+		left:20%;
+		top:0;
+		color:#39BFC2;
+		font-weight:700;
+		font-size:28px;
+		}
+
+		p {
+			position: absolute;
+			top:65px;
+		left:20%;
+		width:70%;
+		margin-bottom:0;
+		}
+
+		.number {
+				width:100px;
+				height:50px;
+				z-index:5;
+				background-position:center;
+				background-size:contain;
+				background-repeat:no-repeat;
+				position: absolute;
+				left:-20px;
+				top:35px;
+			}
+
+	}

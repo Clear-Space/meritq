@@ -38,7 +38,7 @@
     <![endif]-->
 
    <?php // Google Fonts ?>
-   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600italic,600,300,300italic|Lato:400,400italic,300italic,300,700,700italic' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Rokkitt:400,700' rel='stylesheet' type='text/css'>
 
  
     <?php // Lets other plugins and files tie into our theme's <head>:

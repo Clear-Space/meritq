@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  *zoom: 1; }
+  body:before,
+  body:after {
+    display: table;
+    content: '';
+    line-height: 0; }
+  body:after {
+    clear: both; }
+
+#rokkitt {
+  font-family: 'Rokkitt', serif; }
+
+.tourHeaderText #rokkitt {
+  font-size: 45px;
+  font-weight: 400; }
+
+.tourHeaderText h3 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: lato;
+  color: #fff;
+  line-height: 1; }
+
+.tourSection2 {
+  text-align: center; }
+  .tourSection2 p {
+    font-family: lato; }
+
+.principles {
+  background-color: #E7E7E8;
+  position: relative; }
+  .principles p {
+    text-align: left; }
+  .principles .contentContainer {
+    padding-bottom: 75px; }
+
+.middleLine {
+  height: 900px;
+  width: 1px;
+  border-left: 2px solid #C0C0C0;
+  position: absolute;
+  left: 50%;
+  top: 25%; }
+
+.page-id-18 .tourSection2 {
+  height: 45vh; }
+  .page-id-18 .tourSection2 h2 {
+    color: #39BFC2;
+    font-weight: 700;
+    line-height: 1.2; }
+  .page-id-18 .tourSection2 p {
+    font-weight: 100;
+    font-size: 22px; }
+  .page-id-18 .tourSection2 img {
+    padding-top: 5vh;
+    position: relative;
+    top: 8px;
+    width: 100%; }
+  .page-id-18 .tourSection2 .section2TextBlock {
+    padding-top: 2vh; }
+
+.tourTopNumber {
+  font-size: 65px;
+  text-align: center;
+  color: #39BFC2; }
+  .tourTopNumber span {
+    font-weight: 100;
+    font-size: 65px;
+    color: #1E455E;
+    top: -3px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.tourTop {
+  text-align: center; }
+  .tourTop h2 {
+    color: #1E455E;
+    font-weight: 900;
+    padding-bottom: 50px; }
+
+.tourBlock {
+  position: relative;
+  width: 50%;
+  float: left;
+  min-height: 250px; }
+  .tourBlock h2 {
+    position: absolute;
+    left: 20%;
+    color: #39BFC2;
+    font-weight: 700;
+    font-size: 28px; }
+  .tourBlock p {
+    width: 70%;
+    left: 20%;
+    position: absolute;
+    top: 65px;
+    margin-bottom: 0; }
+  .tourBlock .number {
+    width: 100px;
+    height: 50px;
+    z-index: 5;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: 35px; }
+
+.tourBlockRight {
+  float: right;
+  width: 48%;
+  position: relative;
+  min-height: 250px;
+  left: 5%; }
+  .tourBlockRight h2 {
+    position: absolute;
+    left: 20%;
+    top: 0;
+    color: #39BFC2;
+    font-weight: 700;
+    font-size: 28px; }
+  .tourBlockRight p {
+    position: absolute;
+    top: 65px;
+    left: 20%;
+    width: 70%;
+    margin-bottom: 0; }
+  .tourBlockRight .number {
+    width: 100px;
+    height: 50px;
+    z-index: 5;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: 35px; }

@@ -1,0 +1,137 @@
+body {
+  width: 100%;
+  *zoom: 1; }
+  body:before,
+  body:after {
+    display: table;
+    content: '';
+    line-height: 0; }
+  body:after {
+    clear: both; }
+
+#pricingHeader {
+  background: #FEDE67;
+  height: 60vh; }
+  #pricingHeader h2 {
+    margin: 0;
+    padding: 0; }
+  #pricingHeader h3 {
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding: 0; }
+  #pricingHeader p {
+    text-align: center;
+    font-weight: 100; }
+
+.pricingSection2 {
+  height: 235px; }
+
+.pricingBlock {
+  display: inline-block;
+  float: left;
+  width: 33.33333%;
+  padding-left: 1.04167%;
+  padding-right: 1.04167%;
+  position: relative; }
+  .pricingBlock h3 {
+    text-align: center;
+    color: #39BFC2;
+    margin-bottom: 10px; }
+  .pricingBlock p {
+    text-align: center;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 0;
+    font-family: lato;
+    font-weight: 300;
+    font-size: 16px; }
+
+.pricingBlock img {
+  position: absolute;
+  top: 30%;
+  right: 0; }
+
+.pricingSection3 {
+  background: #F2F2F2;
+  height: 250px; }
+
+#fieldlist_1 {
+  display: inline-block;
+  float: left;
+  width: 66.66667%;
+  padding-left: 1.04167%;
+  padding-right: 1.04167%; }
+
+label[for=fieldname3_1] {
+  float: left;
+  min-width: 350px; }
+
+.fields label {
+  float: left;
+  min-width: 350px; }
+
+#fieldname3_1 {
+  float: left;
+  border-radius: 8px;
+  border: 1px solid #39bfc2;
+  background: #f2f2f2;
+  width: 275px !important !important; }
+
+#fieldname2_1 {
+  float: left;
+  border-radius: 8px;
+  border: 1px solid #39bfc2;
+  background: #f2f2f2;
+  width: 275px !important !important; }
+
+.requestaDemo {
+  position: relative; }
+
+.pricingSection3 .contentContainer {
+  position: relative;
+  left: 6%; }
+
+.requestaDemo a {
+  display: inline-block;
+  float: left;
+  width: 33.33333%;
+  padding-left: 1.04167%;
+  padding-right: 1.04167%;
+  float: left;
+  margin-top: 15px;
+  margin-left: 5px;
+  position: relative;
+  top: 0;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  background: #39BFC2;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.9);
+  padding: 9px 6px;
+  width: 150px;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+
+.requestaDemo a:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.6); }
+
+.requestaDemo a:active {
+  top: 4px;
+  box-shadow: 0px 0px #d3545d; }
+
+.requestaDemo p {
+  float: left;
+  position: relative;
+  left: 100px;
+  line-height: 1.2;
+  top: 10px; }
+
+.pricingSection3 p {
+  font-size: 13px;
+  font-family: lato;
+  font-weight: 300;
+  margin-left: 100px; }
+
+#rokkitt {
+  font-family: 'Rokkitt', serif; }

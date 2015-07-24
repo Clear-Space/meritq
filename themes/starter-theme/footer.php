@@ -12,7 +12,7 @@
  
 <footer role="contentinfo" class="contentWrapper clearfix">
 		
-	<div id="copyright" class="contentContainer">
+	<div id="copyright" class="contentContainer clearfix">
 
 	
 			&copy; <?php echo date("Y"); ?> <?php echo bloginfo( "name" ); ?>
